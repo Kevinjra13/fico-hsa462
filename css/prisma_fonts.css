@@ -1,0 +1,801 @@
+@font-face {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Arial'), local('Arial'), url(/fonts/prisma/Arial.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Arial';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Arial Italic'), local('Arial_Italic'), url(/fonts/prisma/Arial_Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Arial Bold'), local('Arial_Bold'), url(/fonts/prisma/Arial_Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Arial';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Arial Bold Italic'), local('Arial_Bold_Italic'), url(/fonts/prisma/Arial_Bold_Italic.ttf) format('truetype');
+}
+
+
+
+
+@font-face {
+  font-family: 'Arial Black';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Arial Black'), local('Arial_Black'), url(/fonts/prisma/Arial_Black.ttf) format('truetype');
+}
+
+
+
+
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Arimo'), local('Arimo-Regular'), url(/fonts/prisma/Arimo-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Arimo';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Arimo Bold Italic'), local('Arimo-BoldItalic'), url(/fonts/prisma/Arimo-BoldItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Arimo Bold'), local('Arimo-Bold'), url(/fonts/prisma/Arimo-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Arimo';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Arimo Italic'), local('Arimo-Italic'), url(/fonts/prisma/Arimo-Italic.ttf) format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bitter'), local('Bitter-Regular'), url(/fonts/prisma/Bitter-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Bitter Bold'), local('Bitter-Bold'), url(/fonts/prisma/Bitter-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bitter';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Bitter Italic'), local('Bitter-Italic'), url(/fonts/prisma/Bitter-Italic.ttf) format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'Comic Sans MS';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Comic Sans MS'), local('Comic_Sans_MS'), url(/fonts/prisma/Comic_Sans_MS.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Comic Sans MS';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Comic Sans MS Bold'), local('Comic_Sans_MS_Bold'), url(/fonts/prisma/Comic_Sans_MS_Bold.ttf) format('truetype');
+}
+
+
+
+
+
+@font-face {
+  font-family: 'Courier New';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Courier New'), local('Courier_New'), url(/fonts/prisma/Courier_New.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Courier New';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Courier New Bold Italic'), local('Courier_New_Bold_Italic'), url(/fonts/prisma/Courier_New_Bold_Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Courier New';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Courier New Bold'), local('Courier_New_Bold'), url(/fonts/prisma/Courier_New_Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Courier New';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Courier New Italic'), local('Courier_New_Italic'), url(/fonts/prisma/Courier_New_Italic.ttf) format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Droid Sans'), local('DroidSans'), url(/fonts/prisma/DroidSans.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(/fonts/prisma/DroidSans-Bold.ttf) format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Georgia'), local('Georgia'), url(/fonts/prisma/Georgia.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Georgia Bold'), local('Georgia_Bold'), url(/fonts/prisma/Georgia_Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Georgia';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Georgia Italic'), local('Georgia_Italic'), url(/fonts/prisma/Georgia_Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Georgia';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Georgia Bold Italic'), local('Georgia_Bold_Italic'), url(/fonts/prisma/Georgia_Bold_Italic.ttf) format('truetype');
+}
+
+
+
+
+
+
+@font-face {
+  font-family: 'Impact';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Impact'), local('impact'), url(/fonts/prisma/impact.ttf) format('truetype');
+}
+
+
+
+
+
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lobster'), local('Lobster-Regular'), url(/fonts/prisma/Lobster-Regular.ttf) format('truetype');
+}
+
+
+
+
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lato'), local('Lato-Regular'), url(/fonts/prisma/Lato-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Lato Italic'), local('Lato-Italic'), url(/fonts/prisma/Lato-Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Lato Bold'), local('Lato-Bold'), url(/fonts/prisma/Lato-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(/fonts/prisma/Lato-BoldItalic.ttf) format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lora'), local('Lora-Regular'), url(/fonts/prisma/Lora-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Lora Bold'), local('Lora-Bold'), url(/fonts/prisma/Lora-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Lora Italic'), local('Lora-Italic'), url(/fonts/prisma/Lora-Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Lora Bold Italic'), local('Lora-BoldItalic'), url(/fonts/prisma/Lora-BoldItalic.ttf) format('truetype');
+}
+
+
+
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Montserrat'), local('Montserrat-Regular'), url(/fonts/prisma/Montserrat-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'), url(/fonts/prisma/Montserrat-Bold.ttf) format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Merriweather'), local('Merriweather-Regular'), url(/fonts/prisma/Merriweather-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Merriweather Bold'), local('Merriweather-Bold'), url(/fonts/prisma/Merriweather-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Merriweather Italic'), local('Merriweather-Italic'), url(/fonts/prisma/Merriweather-Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Merriweather Bold Italic'), local('Merriweather-BoldItalic'), url(/fonts/prisma/Merriweather-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Merriweather Sans'), local('MerriweatherSans-Regular'), url(/fonts/prisma/MerriweatherSans-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Merriweather Sans Bold'), local('MerriweatherSans-Bold'), url(/fonts/prisma/MerriweatherSans-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Merriweather Sans Italic'), local('MerriweatherSans-Italic'), url(/fonts/prisma/MerriweatherSans-Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Merriweather Sans Bold Italic'), local('MerriweatherSans-BoldItalic'), url(/fonts/prisma/MerriweatherSans-BoldItalic.ttf) format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Open Sans'), local('OpenSans-Regular'), url(/fonts/prisma/OpenSans-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(/fonts/prisma/OpenSans-Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(/fonts/prisma/OpenSans-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(/fonts/prisma/OpenSans-BoldItalic.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Open Sans Condensed Bold'), local('OpenSans-CondBold'), url(/fonts/prisma/OpenSans-CondBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(/fonts/prisma/OpenSans-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Light';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'), url(/fonts/prisma/OpenSans-LightItalic.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Open Sans Condensed Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Open Sans Condensed Light'), local('OpenSans-CondLight'), url(/fonts/prisma/OpenSans-CondLight.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Condensed Light';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Open Sans Condensed Light Italic'), local('OpenSans-CondLightItalic'), url(/fonts/prisma/OpenSans-CondLightItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Semibold';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(/fonts/prisma/OpenSans-Semibold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Semibold';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(/fonts/prisma/OpenSans-SemiboldItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Extrabold';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans Extrabold'), local('OpenSans-ExtraBold'), url(/fonts/prisma/OpenSans-ExtraBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Extrabold';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Open Sans Extrabold Bold Italic'), local('OpenSans-ExtraBoldItalic'), url(/fonts/prisma/OpenSans-ExtraBoldItalic.ttf) format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Raleway'), local('Raleway-Regular'), url(/fonts/prisma/Raleway-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Raleway Bold'), local('Raleway-Bold'), url(/fonts/prisma/Raleway-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Raleway Italic'), local('Raleway-Italic'), url(/fonts/prisma/Raleway-Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Raleway Bold Italic'), local('Raleway-BoldItalic'), url(/fonts/prisma/Raleway-BoldItalic.ttf) format('truetype');
+}
+
+
+
+
+
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto'), local('Roboto-Regular'), url(/fonts/prisma/Roboto-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(/fonts/prisma/Roboto-Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(/fonts/prisma/Roboto-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(/fonts/prisma/Roboto-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(/fonts/prisma/Roboto-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Light';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(/fonts/prisma/Roboto-LightItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(/fonts/prisma/Roboto-Thin.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Thin';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(/fonts/prisma/Roboto-ThinItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(/fonts/prisma/Roboto-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Medium';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(/fonts/prisma/Roboto-MediumItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(/fonts/prisma/RobotoCondensed-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(/fonts/prisma/RobotoCondensed-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Roboto Condensed Bold Italic'), local('RobotoCondensed-BoldItalic'), url(/fonts/prisma/RobotoCondensed-BoldItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Roboto Condensed Italic'), local('RobotoCondensed-Italic'), url(/fonts/prisma/RobotoCondensed-Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Condensed Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url(/fonts/prisma/RobotoCondensed-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(/fonts/prisma/RobotoMono-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Roboto Mono Bold'), local('RobotoMono-Bold'), url(/fonts/prisma/RobotoMono-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Roboto Mono Italic'), local('RobotoMono-Italic'), url(/fonts/prisma/RobotoMono-Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Roboto Mono Bold Italic'), local('RobotoMono-BoldItalic'), url(/fonts/prisma/RobotoMono-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto Mono Thin'), local('RobotoMono-Thin'), url(/fonts/prisma/RobotoMono-Thin.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Mono Thin';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Roboto Mono Thin Italic'), local('RobotoMono-ThinItalic'), url(/fonts/prisma/RobotoMono-ThinItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Mono Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto Mono Light'), local('RobotoMono-Light'), url(/fonts/prisma/RobotoMono-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Mono Light';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Roboto Mono Light Italic'), local('RobotoMono-LightItalic'), url(/fonts/prisma/RobotoMono-LightItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto Mono Medium'), local('RobotoMono-Medium'), url(/fonts/prisma/RobotoMono-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Mono Medium';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Roboto Mono Medium Italic'), local('RobotoMono-MediumItalic'), url(/fonts/prisma/RobotoMono-MediumItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto Slab'), local('RobotoSlab-Regular'), url(/fonts/prisma/RobotoSlab-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'), url(/fonts/prisma/RobotoSlab-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Black';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto Black'), local('Roboto-Black'), url(/fonts/prisma/Roboto-Black.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Black';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(/fonts/prisma/Roboto-BlackItalic.ttf) format('truetype');
+}
+
+
+
+
+
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PT Sans Narrow'), local('PT_Sans-Narrow-Web-Regular'), url(/fonts/prisma/PT_Sans-Narrow-Web-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: bold;
+  src: local('PT Sans Narrow Bold'), local('PT_Sans-Narrow-Web-Bold'), url(/fonts/prisma/PT_Sans-Narrow-Web-Bold.ttf) format('truetype');
+}
+
+
+
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(/fonts/prisma/SourceSansPro-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(/fonts/prisma/SourceSansPro-Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro Black';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Source Sans Pro Black'), local('SourceSansPro-Black'), url(/fonts/prisma/SourceSansPro-Black.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro Black';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Source Sans Pro Black Italic'), local('SourceSansPro-BlackItalic'), url(/fonts/prisma/SourceSansPro-BlackItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro Light';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Source Sans Pro Light Italic'), local('SourceSansPro-LightItalic'), url(/fonts/prisma/SourceSansPro-LightItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro ExtraLight';
+  font-style: italic;
+  font-weight: 200;
+  src: local('Source Sans Pro ExtraLight Italic'), local('SourceSansPro-ExtraLightItalic'), url(/fonts/prisma/SourceSansPro-ExtraLightItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Source Sans Pro Bold Italic'), local('SourceSansPro-BoldItalic'), url(/fonts/prisma/SourceSansPro-BoldItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro Semibold';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Source Sans Pro Semibold'), local('SourceSansPro-Semibold'), url(/fonts/prisma/SourceSansPro-Semibold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(/fonts/prisma/SourceSansPro-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro ExtraLight';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Source Sans Pro ExtraLight'), local('SourceSansPro-ExtraLight'), url(/fonts/prisma/SourceSansPro-ExtraLight.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(/fonts/prisma/SourceSansPro-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro Semibold';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Source Sans Pro Semibold Italic'), local('SourceSansPro-SemiboldItalic'), url(/fonts/prisma/SourceSansPro-SemiboldItalic.ttf) format('truetype');
+}
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Times New Roman'), local('Times_New_Roman'), url(/fonts/prisma/Times_New_Roman.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Times New Roman Bold'), local('Times_New_Roman_Bold'), url(/fonts/prisma/Times_New_Roman_Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Times New Roman';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Times New Roman Italic'), local('Times_New_Roman_Italic'), url(/fonts/prisma/Times_New_Roman_Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Times New Roman';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Times New Roman Bold Italic'), local('Times_New_Roman_Bold_Italic'), url(/fonts/prisma/Times_New_Roman_Bold_Italic.ttf) format('truetype');
+}
+
+
+
+
+@font-face {
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Trebuchet MS'), local('Trebuchet_MS'), url(/fonts/prisma/Trebuchet_MS.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Trebuchet MS'), local('Trebuchet_MS_Bold'), url(/fonts/prisma/Trebuchet_MS_Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Trebuchet MS';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Trebuchet MS'), local('Trebuchet_MS_Italic'), url(/fonts/prisma/Trebuchet_MS_Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Trebuchet MS';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Trebuchet MS'), local('Trebuchet_MS_Bold_Italic'), url(/fonts/prisma/Trebuchet_MS_Bold_Italic.ttf) format('truetype');
+}
+
+
+
+
+@font-face {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Verdana'), local('Verdana'), url(/fonts/prisma/Verdana.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Verdana Bold'), local('Verdana_Bold'), url(/fonts/prisma/Verdana_Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Verdana';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Verdana Bold Italic'), local('Verdana_Bold_Italic'), url(/fonts/prisma/Verdana_Bold_Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Verdana';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Verdana Italic'), local('Verdana_Italic'), url(/fonts/prisma/Verdana_Italic.ttf) format('truetype');
+}
